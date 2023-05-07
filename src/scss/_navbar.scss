@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #1E285F !important;
+    height: 10rem;
+    width: 100%;
+  
+    .logoNav{
+      margin-left: 6rem;
+    }
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6rem;
+
+    a{
+        width: 11rem;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+.inicio{
+    width: 9rem;
+}
+    .contact{
+        background-color: white;
+        color: #1E285F;
+        border-radius: 2rem;
+
+    }
+   }
+

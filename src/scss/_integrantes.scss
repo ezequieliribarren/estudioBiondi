@@ -1,0 +1,58 @@
+#integrantes{
+
+    h3{
+        color: #1E285F;
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+    }
+
+    .contadores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+        .contador{
+            display: flex;
+            align-items: center;
+            width: 95%;
+            height: 6rem;
+            background-color: #f2f2f6;
+            border-radius: 1.1rem;
+            margin: 0.7rem;
+
+        }
+.avatar{
+display: flex;
+align-items: center;
+width: 40%;
+margin-left: 2rem;
+h4{
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #1E285F;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+}
+.titulo{
+width: 33%;
+h5{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    color: #1E285F;
+}
+}
+        .mail{
+            display: flex;
+            align-items: center;
+            width: 33%;
+
+            h5:hover{
+                    background-color: #cececf;
+            }
+            button{
+                width: 24rem;
+            }
+        }
+    }
+}

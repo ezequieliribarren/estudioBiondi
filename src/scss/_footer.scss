@@ -1,0 +1,101 @@
+footer {
+    height: 36rem;
+    background-color: #1E285F;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h5 {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    
+    a:hover {
+        color: #ccc;
+    }
+    
+    
+    .footerEnlaces {
+        display: flex;
+    
+        .enlaces,.enlaces2, .enlaces3  {
+            margin: 2rem;
+    
+            h5 {
+                margin-bottom: 2rem;
+            }
+    
+    img{
+        margin-right: 1rem;
+    }
+        }
+    
+        .enlaces2 {
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+    
+        }
+        .enlaces3 {
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            margin-right: 2rem;
+    
+        }
+    
+    }
+    
+    .footerDats {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    
+        a {
+            font-size: 2rem;
+        }
+    
+        .footerLogo {
+            margin-bottom: 2rem;
+            margin: 1.5rem;
+        }
+    
+        .dat {
+            display: flex;
+            margin: 1.5rem;
+    
+            img {
+                margin-right: 2rem;
+            }
+        }
+    }
+    
+    .linea {
+        height: 1px;
+        background-color: #ccc;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .copyright {
+    margin-top: 1rem;
+      h6 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }  
+    }
+    
+    
+}
+
