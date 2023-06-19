@@ -1,39 +1,80 @@
 .navbar{
     background-color: #1E285F !important;
-    height: 10rem;
+    height: 10.5rem;
     width: 100%;
-  
-    .logoNav{
-      margin-left: 6rem;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0px 1.2px 1px white;
+    
+    .navbar-collapse{
+        background-color: #1E285F;
+
+    }
+    .linksNav{
+        display: flex;
+        align-items: center;
+        margin-left: 55.5rem;
     }
 }
 
 .navbar-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 6rem;
 
     a{
-        width: 11rem;
+        width: 13rem;
         color: white;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.8rem;
+        font-size: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 5rem;
+        height: 5.3rem;
         margin-left: 1rem;
         margin-right: 1rem;
         
     }
+
+
 .inicio{
-    width: 9rem;
+    width: 10rem;
 }
     .contact{
         background-color: white;
         color: #1E285F;
-        border-radius: 2rem;
+    }
+   }
+   @media (max-width: 1399px) {
 
+    .linksNav{
+        margin-left: 37rem !important;
     }
    }
 
+   @media (max-width: 1199px) {
+
+    .linksNav{
+        margin-left: 20rem !important;
+    }
+   }
+   @media (max-width: 991px) {
+    .logoNav{
+display: none; 
+    }
+    .navbar-collapse{
+        box-shadow: 0px 2px 5px black;
+    }
+    .navbar-toggler{
+        background-color: white ;
+        width: 5rem;
+        margin-left: 2rem;
+    }
+
+    .linksNav{
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar{
+        margin: 0 !important;
+    }
+   }

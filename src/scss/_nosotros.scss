@@ -1,62 +1,82 @@
 #nosotros{
     background-color: #1E285F;
     margin-top: 10rem;
-    
+    scroll-margin-top: 10em;
+    #valores{
+        scroll-margin-top: 12em;
+    }
     .nosotros{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 
 
     h2{
         color: white;
-        margin: 3rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        font-weight: 100;
         
     }
 
     .descripNos{
-        width: 55%;
-        margin-top: 4rem;
+        width: 60%;
 
-        p{
-margin: 3rem;
-
-        }
+p{
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-family: 'Arvo', serif;
+    color: #d0d0d0;
+    font-weight: 100;
+    font-size: 3.6rem;
+    margin-left: 1rem;
+    margin-top: 7rem;
+}
     }
 .imgNos{
-    width: 40%;
     img{
-        margin: 4rem;
+        margin-top: 8rem;
     }
 }
 }
 
 .valores{
-h3{
-    font-family: 'Arvo', serif;
-    color: #d0d0d0;
-    font-size: 2.8rem;
-}
     .boxes{
         display: flex;
         justify-content: flex-start;
-        margin-top: 2rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+
+
         
-        .box, .boxE{
-        border: solid 0.1rem #d0d0d0;
-        width: 15rem;
-        height: 12rem;
-        border-radius: 2rem;
+        .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 0.1rem #FFFFFF;
+        width: 18rem;
+        padding: 0.3rem;
+        height: 14rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
 
 img{
     margin-bottom: 0.7rem;
     margin-top: 1rem;
 }
         h4{
-            color: #d0d0d0;
+            color: #FFFFFF;
+            font-weight: 600;
+            margin-top: 1rem;
         }
 
         
@@ -67,7 +87,39 @@ img{
             margin-bottom: 1.5rem;
         }
     }
+    .boxA{
+        img{
+            margin-bottom: 2rem;
+        }
+    }
     }
     
 }
+}
+@media (max-width: 768px) {
+    .nosotros{
+       flex-direction: column;
+       align-items: center;
+       .descripNos{
+        width: 90% !important;
+        text-align: center;
+       }
+
+       .imgNos{
+        img{
+margin-top: 3rem;
+margin-bottom: 3rem;
+        }
+       }
+
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .boxes{
+        justify-content: center !important;
+    }
 }

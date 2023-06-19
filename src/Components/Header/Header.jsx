@@ -2,22 +2,24 @@ import React from 'react'
 
 const Header = () => {
   return (
-<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+<header>
+<div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-interval="800">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="/images/carousel1.png" alt="First slide"/>
+      <img src="/images/carousel1.jpg" className="d-block w-100 imgCarousel" alt="Asesoramiento contable"/>      
+      <img src="/images/carousel3.jpg" className="d-block w-100 respCarousel" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="/images/carousel2.png" alt="Second slide"/>
+      <img src="/images/carousel2.jpg" className="d-block w-100 imgCarousel" alt="..."/> 
+      <img src="/images/carousel4.jpg" className="d-block w-100 respCarousel" alt="..."/>
     </div>
   </div>
-  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-  </a>
 </div>
+<a href='#contacto' className='contactHeader'>Contactanos</a>
+</header>
+  
+     
+
   )
 }
 

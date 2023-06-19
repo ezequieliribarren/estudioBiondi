@@ -1,5 +1,12 @@
 #servicios{
- 
+    scroll-margin-top: 15em;
+ p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    margin-top: 2.5rem;
+    color: black;
+ }
 }
 
 .contenedorServ{
@@ -8,23 +15,22 @@
     align-items: center;
 }
 .cardsServ{
-margin-top: 3rem;
-margin-bottom: 3rem;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+margin-bottom: 1rem;
 .cardServ {
     width: 38rem;
-    height: 62rem;
-    border-radius: 3rem;
+    height: 63rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: solid 0.1rem #1E285F;
     margin: 1rem
+
 }
 img{
-    margin-top: 2.8rem;
+    margin-top: 5rem;
 }
 .cardServ:hover{
     transform: scale(1.02);
@@ -35,10 +41,16 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     h3{
         margin-bottom: 1.5rem;
+        color: #1E285F;
+        text-align: center;
+    }
+
+    h4{
+        margin-top: 1rem;
     }
 ul{
     width: 32rem;
@@ -50,5 +62,24 @@ ul{
 }
    
 }
+
 }
 
+.contactServ{
+    width: 17rem;
+    font-size: 1.6rem;
+    height: 5.4rem;
+    margin-top: 6.5rem;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .cardServ {
+        width: 28rem !important;
+    }
+}

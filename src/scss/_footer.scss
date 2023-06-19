@@ -1,9 +1,8 @@
+
 footer {
-    height: 36rem;
     background-color: #1E285F;
-    padding: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
@@ -17,7 +16,8 @@ footer {
         color: white;
         text-align: center;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        font-weight: 400;
     }
     
     a:hover {
@@ -27,57 +27,61 @@ footer {
     
     .footerEnlaces {
         display: flex;
-    
-        .enlaces,.enlaces2, .enlaces3  {
-            margin: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        .enlaces,.enlaces2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        
+margin-left: 1.8rem;
+margin-right: 1.8rem;
+margin-top: 1rem;
+            a{
+                margin-bottom: 1rem;
+            }
     
             h5 {
                 margin-bottom: 2rem;
             }
     
-    img{
-        margin-right: 1rem;
-    }
-        }
-    
-        .enlaces2 {
-            margin: 2rem;
-            display: flex;
-            flex-direction: column;
-    
-        }
-        .enlaces3 {
-            margin: 2rem;
-            display: flex;
-            flex-direction: column;
-            margin-right: 2rem;
-    
         }
     
     }
+
     
     .footerDats {
-        display: flex;
-        flex-direction: column;
-        margin-right: 2rem;
-        margin-left: 2rem;
-    
-        a {
-            font-size: 2rem;
-        }
-    
-        .footerLogo {
-            margin-bottom: 2rem;
-            margin: 1.5rem;
-        }
-    
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 1rem;
+
+.oficina{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
         .dat {
             display: flex;
-            margin: 1.5rem;
+            margin: 1rem;
+
+            .sep{
+                margin-bottom: 2rem;
+            }
+            h5{
+                font-size: large;
+                font-weight: 400;
+            }
     
             img {
                 margin-right: 2rem;
             }
+        }
+
+        .ofiFoot{
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
         }
     }
     
@@ -93,9 +97,11 @@ footer {
       h6 {
         color: white;
         font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
     }  
     }
-    
+
     
 }
 

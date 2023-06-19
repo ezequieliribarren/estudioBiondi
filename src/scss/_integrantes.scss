@@ -1,58 +1,117 @@
-#integrantes{
-
-    h3{
+#integrantes {
+    scroll-margin-top: 10em;
+    h3 {
         color: #1E285F;
         font-size: 1.8rem;
         margin-top: 1.5rem;
     }
 
-    .contadores{
+    .contadores {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin-top: 3rem;
-        .contador{
+
+        .contador {
             display: flex;
             align-items: center;
-            width: 95%;
+            width: 120rem;
             height: 6rem;
-            background-color: #f2f2f6;
-            border-radius: 1.1rem;
+            background-color: #E3E6EE;
             margin: 0.7rem;
+            padding: 1rem;
 
         }
-.avatar{
-display: flex;
-align-items: center;
-width: 40%;
-margin-left: 2rem;
-h4{
-    font-weight: 600;
-    font-size: 2.2rem;
-    color: #1E285F;
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-}
-}
-.titulo{
-width: 33%;
-h5{
-    font-size: 1.4rem;
-    margin-top: 0.5rem;
-    color: #1E285F;
-}
-}
-        .mail{
+
+        .avatar {
             display: flex;
             align-items: center;
-            width: 33%;
+            justify-content: start;
+            width: 40rem;
 
-            h5:hover{
-                    background-color: #cececf;
+            h4 {
+                font-weight: 600;
+                font-size: 2.2rem;
+                color: #1E285F;
+                margin-top: 1rem;
+                margin-left: 1.5rem;
             }
-            button{
+        }
+
+        .titulo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40rem;
+            h5 {
+                font-size: 1.4rem;
+                margin-top: 0.5rem;
+                color: #1E285F;
+                text-align: center;
+            }
+        }
+
+        .mail {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            width: 40rem;
+
+            h5:hover {
+                background-color: #cececf;
+            }
+
+            button {
                 width: 24rem;
+                border: solid 1px #6B6B6B;
             }
+        }
+    }
+}
+
+
+@media (max-width: 1300px) {
+.contador{
+    width: 99rem !important;
+    .avatar{
+        width: 33rem !important;
+    }
+    .titulo{
+        width: 33rem !important;
+    }
+    .mail{
+        width: 33rem !important;
+    }
+}
+}
+
+@media (max-width: 999px){
+    .contador{
+flex-direction: column;
+width: 40rem !important;
+height: auto !important;
+justify-content: center;
+align-items: center;
+
+.avatar,.titulo,.mail{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+}}
+
+@media (max-width: 405px){
+    .contador{
+        width: 90% !important;
+        h4{
+            font-size: 1.8rem !important;
+        }
+
+        h5{
+            font-size: 1.3rem !important;
         }
     }
 }

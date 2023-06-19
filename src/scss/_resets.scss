@@ -6,15 +6,21 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 li {
     list-style: none;
 }
+@font-face {
+    font-family: "titulos";
+    src: url(../../public/fonts/BodonBk.ttf);
+    font-display: swap;
+}
 
 h2{
-    font-family: 'Arvo', serif;
-    font-size: 3.5rem;
+    font-family: 'titulos';
+    font-size: 4.6rem;
     color: #1E285F;
     margin-top: 10rem;
 }
@@ -22,7 +28,7 @@ h2{
 h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     word-spacing: 0.2rem
 }
 
@@ -40,11 +46,11 @@ h5{
 button{
     width: 15rem;
     height: 4rem;
-    border-radius: 0.8rem;
     background-color: #1E285F;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
+    border: none;
 }
 
 p{
@@ -52,4 +58,42 @@ p{
     font-size: 1.8rem;
     color: white;
 
+}
+
+
+@media (max-width: 580px) {
+    h2{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+h2{
+    font-size: 3.6rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.4rem;
+}
+
+h5{
+    font-size: 1.2rem;
+}
+li{
+    list-style: none !important;
+    width: 26rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.3rem !important;
+}
 }
