@@ -74,11 +74,11 @@ ul{
         color: white;
     }
 }
+
 .buttonServ{
     width: 8rem;
-    height: 7rem;
+    height: 10rem;
     margin-top: 1.5rem;
-    padding-bottom: 0.5rem;
     display: none;
 }
 .spanVer{
@@ -97,7 +97,7 @@ ul{
     font-size: 2.5rem;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    padding-top: 2rem;
+  padding: 2rem;
     color: #ffffff
 }
 
@@ -125,9 +125,15 @@ ul{
 
     .buttonServ{
         display: block;
+        margin-bottom: 0.2rem;
     }
     .cardServ {
-        height: 40rem !important;
+        height: auto !important;
+
+        .contentServ{
+            height: 15rem;
+        }
+
 
        h3{
         margin-top: 1rem;

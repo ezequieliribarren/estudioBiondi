@@ -5,13 +5,13 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg bg-light">    
 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" ariklllla-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-    </button>
-  <div className="container-fluid ">    
-    <div className="collapse navbar-collapse" id="navbarNav">      
-      <div className="navbar-nav mx-auto">
-      <div className='logoNav'>
+    </button><div className='logoNav'>
         <a href="#">   <img src="/images/logoEstudio.png" alt="Logo" /></a>
-      </div>
+      </div>      
+  <div className="container-fluid ">    
+    <div className="collapse navbar-collapse" id="navbarNav"> 
+      <div className="navbar-nav mx-auto">
+     
       <div className='linksNav'>
           <a className="nav-link inicio" href="#">Inicio</a>
 
