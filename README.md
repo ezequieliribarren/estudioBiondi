@@ -1,74 +1,54 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Proyecto Estudio Biondi
+![image](https://github.com/ezequieliribarren/estudioBiondi/assets/105462718/5cc0fcb3-c084-4347-951d-7a92e2d25147)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Enlace a la web](https://estudiobiondi.com/)
 
-## Available Scripts
 
-In the project directory, you can run:
+Este proyecto representa el sitio web del Estudio de contabilidad Biondi. En él, se detallaron todos los servicios ofrecidos de forma dinámica a través de botones que muestran más información. Además, se incluyen mapas que indican las ubicaciones de sus diversas oficinas, un formulario de contacto útil para poder solicitar más información y una descripción del equipo de contadores, administrativos y abogados.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contenido
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Descripción](#descripción)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Contacto](#contacto)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Descripción
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El sitio web del Estudio Biondi es una **one page** diseñada para proporcionar información clara y concisa sobre los servicios de contabilidad ofrecidos por el estudio. Incluye:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Descripción de Servicios** 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Carousel de Llamadas a la Acción** 
 
-### `npm run eject`
+- **Mapa Interactivo**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Descripcion del equipo de profesionales**
+  
+- **Formulario de contacto**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tecnologías Utilizadas
 
-## Learn More
+- ![react](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/fd64b8f1-e248-41c1-a279-f4a4b442259d) **React**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ![devicon_reactrouter](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/707dd0b5-e274-4869-9cb4-76376784dcf8) **React Router**
+  
+- ![sass](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/6c5ff55e-00c2-45fa-be9c-21d750e047a3) **Sass**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ![bootstrap](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/7f991683-b7e4-41e1-bce9-696290a5d411) **Bootstrap:**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contacto
 
-### Analyzing the Bundle Size
+Para cualquier pregunta o colaboración, no dudes en ponerte en contacto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **E-mail:** [info@ezequieliribarren.com](mailto:info@ezequieliribarren.com)
+- **Sitio Web:** [Portfolio](https://ezequieliribarren.com/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# estudioBiondi
->>>>>>> 87f4eb0099b99d38c172326eb9d3ec03c5b1ecb3
