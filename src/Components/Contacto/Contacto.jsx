@@ -1,6 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contacto = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_od2g2s8', 'template_2lgu25r', form.current, 'UPVbh47VuLr5_CNCU')
+      .then((result) => {
+         alert("Mensaje Enviado")
+      }, (error) => {
+        alert("Hubo un error en el envío del mensaje. Intente nuevamente")
+      });
+  };
+
+
   return (
     <section id='contacto'>
 <div className='contacto'>
@@ -12,18 +28,15 @@ const Contacto = () => {
            <h2>Contactanos</h2> 
         </div>
 <div className='divForm'>
-<form className='form' action="https://formsubmit.co/info@versadigital.com.ar" method="POST" >
+<form className='form' ref={form} onSubmit={sendEmail}>
 <label htmlFor="">Nombre</label>
-<input type="text"  placeholder='Tu Nombre' name='Nombre'required/> 
+<input type="text"  placeholder='Tu Nombre' name='name'required/> 
 <label htmlFor="">E-mail</label>
 <input className='email' type="mail" placeholder='ejemplo@email.com' name='email' required/> 
 <label htmlFor="">Tel.</label>
-<input type="text"  placeholder='Tu tel.' name='Nombre'required/> 
+<input type="text"  placeholder='Tu tel.' name='tel'required/> 
 <label htmlFor="">Dejanos tu mensaje</label>
-<textarea name="consulta" id="" cols="30" rows="10" placeholder='Por favor escribí tu mensaje aquí...' required></textarea>
-
-<input className="hiden" type="hiden" name="_next" defaultValue="http://localhost:3000/" />
-<input className="hiden" type="hiden" name="_captcha" defaultValue="false" />
+<textarea name="message" id="" cols="30" rows="10" placeholder='Por favor escribí tu mensaje aquí...' required></textarea>
 <button type='submit'>Enviar</button>
             </form>
     <div className='datContact'>
